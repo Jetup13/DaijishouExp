@@ -268,13 +268,6 @@
       "revisionNumber": 14
     },
     {
-      "filename": "GameBoyAdvance.json",
-      "platformName": "Game Boy Advance",
-      "platformShortname": "gba",
-      "platformUniqueId": "gba",
-      "revisionNumber": 13
-    },
-    {
       "filename": "GameBoyColor.json",
       "platformName": "Game Boy Color",
       "platformShortname": "gbc",
@@ -455,6 +448,13 @@
       "platformShortname": "nes",
       "platformUniqueId": "nes",
       "revisionNumber": 9
+    },
+    {
+      "filename": "NintendoGameBoyAdvance.json",
+      "platformName": "Nintendo - Game Boy Advance",
+      "platformShortname": "gba",
+      "platformUniqueId": "gba",
+      "revisionNumber": 13
     },
     {
       "filename": "NintendoSatellaview.json",
