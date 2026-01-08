@@ -1,6 +1,6 @@
 {
   "databaseVersion": 14,
-  "revisionNumber": 5,
+  "revisionNumber": 4,
   "platform": {
     "name": "Moonlight Streaming",
     "uniqueId": "moonlight",
@@ -26,7 +26,7 @@
       "uniqueId": "moonlight.com.limelight.noir",
       "description": "Supported extensions: art",
       "acceptedFilenameRegex": "^(.*)\\.(?:art)$",
-      "amStartArguments": "-n com.limelight.noir/com.limelight.ShortcutTrampoline\n -a android.intent.action.VIEW\n -d {file.uri}",
+      "amStartArguments": "-n com.limelight.noir/com.limelight.ShortcutTrampoline\n -a android.intent.action.VIEW\n -d {file.uri}\n",
       "killPackageProcesses": true,
       "killPackageProcessesWarning": true,
       "extra": ""

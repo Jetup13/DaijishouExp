@@ -1,10 +1,10 @@
 {
   "databaseVersion": 14,
-  "revisionNumber": 12,
+  "revisionNumber": 5,
   "platform": {
-    "name": "Sony PlayStation Portable",
-    "uniqueId": "psp",
-    "shortname": "psp",
+    "name": "PlayStation Portable Minis",
+    "uniqueId": "pspminis",
+    "shortname": "pspminis",
     "description": null,
     "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*$",
     "scraperSourceList": [
@@ -18,15 +18,13 @@
     "screenAspectRatioId": 4,
     "useCustomScreenAspectRatio": false,
     "customScreenAspectRatio": null,
-    "retroAchievementsConsoleIdList": [
-      41
-    ],
+    "retroAchievementsConsoleIdList": [],
     "extra": ""
   },
   "playerList": [
     {
-      "name": "psp - PPSSPP",
-      "uniqueId": "psp.org.ppsspp.ppsspp",
+      "name": "pspminis - PPSSPP",
+      "uniqueId": "pspminis.org.ppsspp.ppsspp",
       "description": "Supported extensions: cso, chd, elf, iso, pbp, prx.",
       "acceptedFilenameRegex": "^(.*)\\.(?:cso|chd|elf|iso|pbp|prx)$",
       "amStartArguments": "-n org.ppsspp.ppsspp/.PpssppActivity\n  -a android.intent.action.VIEW\n -c android.intent.category.DEFAULT\n -d {file.uri}\n -t application/octet-stream\n --activity-clear-task  --activity-clear-top  --activity-no-history",
@@ -35,8 +33,8 @@
       "extra": ""
     },
     {
-      "name": "psp - PPSSPP Gold",
-      "uniqueId": "psp.org.ppsspp.ppssppgold",
+      "name": "pspminis - PPSSPP Gold",
+      "uniqueId": "pspminis.org.ppsspp.ppssppgold",
       "description": "Supported extensions: cso, chd, elf, iso, pbp, prx.",
       "acceptedFilenameRegex": "^(.*)\\.(?:cso|chd|elf|iso|pbp|prx)$",
       "amStartArguments": "-n org.ppsspp.ppssppgold/org.ppsspp.ppsspp.PpssppActivity\n  -a android.intent.action.VIEW\n -c android.intent.category.DEFAULT\n -d {file.uri}\n -t application/octet-stream\n --activity-clear-task  --activity-clear-top  --activity-no-history",
@@ -45,8 +43,8 @@
       "extra": ""
     },
     {
-      "name": "psp - PPSSPP Legacy",
-      "uniqueId": "psp.org.ppsspp.ppsspplegacy",
+      "name": "pspminis - PPSSPP Legacy",
+      "uniqueId": "pspminis.org.ppsspp.ppsspplegacy",
       "description": "Supported extensions: cso, chd, elf, iso, pbp, prx.",
       "acceptedFilenameRegex": "^(.*)\\.(?:cso|chd|elf|iso|pbp|prx)$",
       "amStartArguments": "-n org.ppsspp.ppsspplegacy/org.ppsspp.ppsspp.PpssppActivity\n  -a android.intent.action.VIEW\n -c android.intent.category.DEFAULT\n -d {file.uri}\n -t application/octet-stream\n --activity-clear-task  --activity-clear-top  --activity-no-history",
@@ -55,31 +53,31 @@
       "extra": ""
     },
     {
-      "name": "psp - RetroArch 64 - ppsspp",
-      "uniqueId": "psp.ra64.ppsspp",
+      "name": "pspminis - RetroArch 64 - ppsspp",
+      "uniqueId": "pspminis.ra64.ppsspp",
       "description": "Supported extensions: cso, elf, iso, pbp, prx.",
       "acceptedFilenameRegex": "^(.*)\\.(?:cso|chd|elf|iso|pbp|prx)$",
-      "amStartArguments": "-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO ppsspp\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg",
+      "amStartArguments": "-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture\n -e ROM {file.path}\n -e LIBRETRO ppsspp\n -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg",
       "killPackageProcesses": true,
       "killPackageProcessesWarning": true,
       "extra": ""
     },
     {
-      "name": "psp - RetroArch 32 - ppsspp",
-      "uniqueId": "psp.ra32.ppsspp",
+      "name": "pspminis - RetroArch 32 - ppsspp",
+      "uniqueId": "pspminis.ra32.ppsspp",
       "description": "Supported extensions: cso, elf, iso, pbp, prx.",
       "acceptedFilenameRegex": "^(.*)\\.(?:cso|chd|elf|iso|pbp|prx)$",
-      "amStartArguments": "-n com.retroarch.ra32/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO ppsspp\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.ra32/files/retroarch.cfg",
+      "amStartArguments": "-n com.retroarch.ra32/com.retroarch.browser.retroactivity.RetroActivityFuture\n -e ROM {file.path}\n -e LIBRETRO ppsspp\n -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.ra32/files/retroarch.cfg",
       "killPackageProcesses": true,
       "killPackageProcessesWarning": true,
       "extra": ""
     },
     {
-      "name": "psp - RetroArch - ppsspp",
-      "uniqueId": "psp.ra.ppsspp",
+      "name": "pspminis - RetroArch - ppsspp",
+      "uniqueId": "pspminis.ra.ppsspp",
       "description": "Supported extensions: cso, elf, iso, pbp, prx.",
       "acceptedFilenameRegex": "^(.*)\\.(?:cso|chd|elf|iso|pbp|prx)$",
-      "amStartArguments": "-n com.retroarch/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO ppsspp\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch/files/retroarch.cfg",
+      "amStartArguments": "-n com.retroarch/com.retroarch.browser.retroactivity.RetroActivityFuture\n -e ROM {file.path}\n -e LIBRETRO ppsspp\n -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch/files/retroarch.cfg",
       "killPackageProcesses": true,
       "killPackageProcessesWarning": true,
       "extra": ""

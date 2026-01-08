@@ -22,7 +22,7 @@ except Exception:
     pass
 
 index = {
-    "baseUri": "https://raw.githubusercontent.com/Jetup13/DaijishouExperimental/main/platforms/",
+    "baseUri": "https://raw.githubusercontent.com/Jetup13/DaijishouExperimental/extra/platforms/",
     "platformList": []
 }
 for f in files:

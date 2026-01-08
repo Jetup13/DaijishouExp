@@ -1,6 +1,6 @@
 {
   "databaseVersion": 14,
-  "revisionNumber": 4,
+  "revisionNumber": 3,
   "platform": {
     "name": "Steam",
     "uniqueId": "steam",
@@ -66,7 +66,7 @@
       "uniqueId": "steam.app.gamenative",
       "description": "GameNative",
       "acceptedFilenameRegex": "^(.*)\\.(?:steamappid)$",
-      "amStartArguments": "-a app.gamenative.LAUNCH_GAME\n -n app.gamenative/.MainActivity\n --ei app_id {tags.steamappid}",
+      "amStartArguments": "-a app.gamenative.LAUNCH_GAME\n -n app.gamenative/.MainActivity\n --ei app_id {tags.steamappid}\n",
       "killPackageProcesses": false,
       "killPackageProcessesWarning": false,
       "extra": ""

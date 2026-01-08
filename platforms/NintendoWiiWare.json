@@ -20,37 +20,14 @@
     "screenAspectRatioId": 1,
     "useCustomScreenAspectRatio": false,
     "customScreenAspectRatio": null,
-    "retroAchievementsConsoleIdList": [
-      19,
-      20
-    ],
+    "retroAchievementsConsoleIdList": [19, 20],
     "extra": ""
   },
   "playerList": [
     {
-      "name": "wiiware - Dolphin (Official)",
-      "uniqueId": "wiiware.org.dolphinemu.dolphinemu",
-      "description": "Supported extensions: wad.",
-      "acceptedFilenameRegex": "^(.*)\\.(?:wad)$",
-      "amStartArguments": "-n org.dolphinemu.dolphinemu/.ui.main.MainActivity\n  -a android.intent.action.MAIN\n  -e AutoStartFile {file.uri}",
-      "killPackageProcesses": false,
-      "killPackageProcessesWarning": true,
-      "extra": ""
-    },
-    {
-      "name": "wiiware - Dolphin (Debug)",
-      "uniqueId": "wiiware.org.dolphinemu.dolphinemu.debug",
-      "description": "Supported extensions: wad.",
-      "acceptedFilenameRegex": "^(.*).(?:wad|m3u)$",
-      "amStartArguments": "-n org.dolphinemu.dolphinemu.debug/org.dolphinemu.dolphinemu.ui.main.MainActivity\n  -a android.intent.action.MAIN\n  -e AutoStartFile {file.uri}",
-      "killPackageProcesses": false,
-      "killPackageProcessesWarning": true,
-      "extra": ""
-    },
-    {
       "name": "wiiware - Dolphin handheld",
       "uniqueId": "wiiware.org.dolphinemu.handheld",
-      "description": "Supported extensions: wad.",
+      "description": null,
       "acceptedFilenameRegex": "^(.*).(?:wad)$",
       "amStartArguments": "-n org.dolphinemu.handheld/org.dolphinemu.dolphinemu.ui.main.MainActivity\n  -a android.intent.action.VIEW\n  -e AutoStartFile {file.uri}",
       "killPackageProcesses": false,
@@ -58,9 +35,9 @@
       "extra": ""
     },
     {
-      "name": "wiiware - Dolphin Dolphin (MMJR)",
+      "name": "wiiware - Dolphin org.mm.jr fork",
       "uniqueId": "wiiware.org.mm.jr",
-      "description": "Supported extensions: wad.",
+      "description": null,
       "acceptedFilenameRegex": "^(.*).(?:wad)$",
       "amStartArguments": "-n org.mm.jr/org.dolphinemu.dolphinemu.ui.main.MainActivity\n  -a android.intent.action.VIEW\n  -e AutoStartFile {file.path}",
       "killPackageProcesses": false,
@@ -68,9 +45,9 @@
       "extra": ""
     },
     {
-      "name": "wiiware - Dolphin (MMJ - weihuoya)",
+      "name": "wiiware - Dolphin org.mm.j fork",
       "uniqueId": "wiiware.org.mm.j",
-      "description": "Supported extensions: wad.",
+      "description": null,
       "acceptedFilenameRegex": "^(.*).(?:wad)$",
       "amStartArguments": "-n org.mm.j/org.dolphinemu.dolphinemu.ui.main.MainActivity\n  -a android.intent.action.VIEW\n  -e AutoStartFile {file.path}",
       "killPackageProcesses": false,
@@ -78,9 +55,9 @@
       "extra": ""
     },
     {
-      "name": "wiiware - Dolphin (MMJR2)",
+      "name": "wiiware - Dolphin mmjr",
       "uniqueId": "wiiware.org.dolphinemu.mmjr",
-      "description": "Supported extensions: wad.",
+      "description": null,
       "acceptedFilenameRegex": "^(.*).(?:wad)$",
       "amStartArguments": "-n org.dolphinemu.mmjr/org.dolphinemu.dolphinemu.ui.main.MainActivity\n  -a android.intent.action.VIEW\n  -e AutoStartFile {file.uri}",
       "killPackageProcesses": false,
@@ -88,9 +65,19 @@
       "extra": ""
     },
     {
+      "name": "wiiware - org.dolphinemu.dolphinemu",
+      "uniqueId": "wiiware.org.dolphinemu.dolphinemu",
+      "description": null,
+      "acceptedFilenameRegex": "^(.*).(?:wad)$",
+      "amStartArguments": "-n org.dolphinemu.dolphinemu/.ui.main.MainActivity\n  -a android.intent.action.MAIN\n  -e AutoStartFile {file.uri}",
+      "killPackageProcesses": false,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
       "name": "wiiware - Dolphin mmjr3",
       "uniqueId": "wiiware.org.dolphinemu.mmjr3",
-      "description": "Supported extensions: wad.",
+      "description": null,
       "acceptedFilenameRegex": "^(.*).(?:wad)$",
       "amStartArguments": "-n org.dolphinemu.mmjr3/org.dolphinemu.dolphinemu.ui.main.MainActivity\n  -a android.intent.action.VIEW\n  -e AutoStartFile {file.uri}",
       "killPackageProcesses": false,
@@ -100,7 +87,7 @@
     {
       "name": "wiiware - Dolphin Ishiiruka",
       "uniqueId": "wiiware.org.dolphin.ishiirukadark",
-      "description": "Supported extensions: wad.",
+      "description": null,
       "acceptedFilenameRegex": "^(.*).(?:wad)$",
       "amStartArguments": "-n org.dolphin.ishiirukadark/org.dolphinemu.dolphinemu.ui.main.MainActivity\n  -a android.intent.action.VIEW\n  -e AutoStartFile {file.path}",
       "killPackageProcesses": false,
@@ -108,11 +95,21 @@
       "extra": ""
     },
     {
-      "name": "wiiware - RetroArch 64 - dolphin",
-      "uniqueId": "wiiware.ra64.dolphin",
+      "name": "wiiware - Dolphin (Debug Build)",
+      "uniqueId": "wiiware.org.dolphinemu.dolphinemu.debug",
       "description": "Supported extensions: wad.",
       "acceptedFilenameRegex": "^(.*)\\.(?:wad)$",
-      "amStartArguments": "-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO dolphin\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg",
+      "amStartArguments": "-n org.dolphinemu.dolphinemu.debug/org.dolphinemu.dolphinemu.ui.main.MainActivity\n -a android.intent.action.MAIN\n -e AutoStartFile {file.uri}",
+      "killPackageProcesses": false,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
+      "name": "wiiware - RetroArch 64 - dolphin",
+      "uniqueId": "wiiware.ra64.dolphin",
+      "description": "Supported extensions: wad",
+      "acceptedFilenameRegex": "^(.*)\\.(?:wad)$",
+      "amStartArguments": "-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture\n -e ROM {file.path}\n -e LIBRETRO dolphin\n -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg",
       "killPackageProcesses": true,
       "killPackageProcessesWarning": true,
       "extra": ""
@@ -120,9 +117,9 @@
     {
       "name": "wiiware - RetroArch - dolphin",
       "uniqueId": "wiiware.ra.dolphin",
-      "description": "Supported extensions: wad.",
+      "description": "Supported extensions: wad",
       "acceptedFilenameRegex": "^(.*)\\.(?:wad)$",
-      "amStartArguments": "-n com.retroarch/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO dolphin\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch/files/retroarch.cfg",
+      "amStartArguments": "-n com.retroarch/com.retroarch.browser.retroactivity.RetroActivityFuture\n -e ROM {file.path}\n -e LIBRETRO dolphin\n -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch/files/retroarch.cfg",
       "killPackageProcesses": true,
       "killPackageProcessesWarning": true,
       "extra": ""
