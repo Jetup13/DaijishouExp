@@ -23,6 +23,20 @@
       "revisionNumber": 3
     },
     {
+      "filename": "ArcadeFinalBurnNeo.json",
+      "platformName": "Arcade (FinalBurn Neo)",
+      "platformShortname": "fbneo",
+      "platformUniqueId": "fbneo",
+      "revisionNumber": 5
+    },
+    {
+      "filename": "ArcadeMAME.json",
+      "platformName": "Arcade (MAME)",
+      "platformShortname": "mame",
+      "platformUniqueId": "mame",
+      "revisionNumber": 8
+    },
+    {
       "filename": "Arcadia2001.json",
       "platformName": "Arcadia 2001",
       "platformShortname": "arcadia",
@@ -240,13 +254,6 @@
       "revisionNumber": 8
     },
     {
-      "filename": "FinalBurnNeo.json",
-      "platformName": "Arcade (FinalBurn Neo)",
-      "platformShortname": "fbneo",
-      "platformUniqueId": "fbneo",
-      "revisionNumber": 5
-    },
-    {
       "filename": "FlashbackGameEngine.json",
       "platformName": "Flashback Game Engine",
       "platformShortname": "flashback",
@@ -266,6 +273,13 @@
       "platformShortname": "gb",
       "platformUniqueId": "gb",
       "revisionNumber": 14
+    },
+    {
+      "filename": "GameBoyAdvance.json",
+      "platformName": "Game Boy Advance",
+      "platformShortname": "gba",
+      "platformUniqueId": "gba",
+      "revisionNumber": 13
     },
     {
       "filename": "GameBoyColor.json",
@@ -308,13 +322,6 @@
       "platformShortname": "lowresnx",
       "platformUniqueId": "lowresnx",
       "revisionNumber": 3
-    },
-    {
-      "filename": "MAME.json",
-      "platformName": "Arcade (MAME)",
-      "platformShortname": "mame",
-      "platformUniqueId": "mame",
-      "revisionNumber": 8
     },
     {
       "filename": "MSX.json",
@@ -448,13 +455,6 @@
       "platformShortname": "nes",
       "platformUniqueId": "nes",
       "revisionNumber": 9
-    },
-    {
-      "filename": "NintendoGameBoyAdvance.json",
-      "platformName": "Nintendo - Game Boy Advance",
-      "platformShortname": "gba",
-      "platformUniqueId": "gba",
-      "revisionNumber": 13
     },
     {
       "filename": "NintendoSatellaview.json",

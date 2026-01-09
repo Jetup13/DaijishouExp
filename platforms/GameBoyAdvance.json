@@ -2,7 +2,7 @@
   "databaseVersion": 14,
   "revisionNumber": 13,
   "platform": {
-    "name": "Nintendo - Game Boy Advance",
+    "name": "Game Boy Advance",
     "uniqueId": "gba",
     "shortname": "gba",
     "description": null,
